@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PRANAVAKASH D — Full Stack Developer</title>
+  <style>
+    :root {
+      --text: #111;
+      --muted: #555;
+      --accent: #0b84ff;
+      --bg: #fff;
+      --line: #e6e9ef;
+      --chip-bg: #f5f7fb;
+      --chip-text: #2b3a55;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+    }
+    .page { max-width: 960px; margin: 32px auto; padding: 0 24px; }
+    .header {
+      display: grid; grid-template-columns: 1fr auto; gap: 16px;
+      border-bottom: 2px solid var(--line); padding-bottom: 16px; margin-bottom: 24px;
+    }
+    .title { margin: 0; font-size: 32px; font-weight: 800; }
+    .subtitle { margin: 4px 0 0; font-size: 16px; color: var(--muted); font-weight: 600; }
+    .tagline { margin: 6px 0 0; font-size: 14px; color: var(--accent); font-weight: 500; }
+    .contact { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; justify-content: flex-end; }
+    .contact a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+    .contact a:hover { text-decoration: underline; border-bottom-color: transparent; }
+    section { margin: 24px 0; }
+    .section-title { font-size: 18px; font-weight: 800; text-transform: uppercase; margin: 0 0 12px; }
+    .card { border: 1px solid var(--line); border-radius: 12px; padding: 16px; background: #fff; }
+    .item { display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; margin-bottom: 14px; }
+    .item-title { font-weight: 700; margin: 0; }
+    .item-meta { font-size: 14px; color: var(--muted); text-align: right; white-space: nowrap; }
+    ul { margin: 8px 0 0 18px; }
+    li { margin: 6px 0; }
+    li strong { color: var(--accent); }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+    .chip { background: var(--chip-bg); color: var(--chip-text); border: 1px solid var(--line);
+            border-radius: 999px; padding: 6px 10px; font-size: 13px; font-weight: 600; }
+    footer { margin-top: 24px; color: var(--muted); font-size: 13px; text-align: center; }
+    footer a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+    @media (max-width: 720px) {
+      .header { grid-template-columns: 1fr; }
+      .contact { justify-content: flex-start; }
+      .item { grid-template-columns: 1fr; }
+      .item-meta { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <div>
+        <h1 class="title">PRANAVAKASH D</h1>
+        <p class="subtitle">Full Stack Developer</p>
+        <p class="tagline">Building scalable apps with React & Spring Boot</p>
+      </div>
+      <div class="contact">
+        <span>📍 Tirupur, Tamil Nadu</span>
+        <a href="mailto:pranavakash250@gmail.com">✉️ Email</a>
+        <a href="https://www.linkedin.com/in/pranavakash-d" target="_blank">🔗 LinkedIn</a>
+        <a href="https://github.com/Pranavakash" target="_blank">💻 GitHub</a>
+        <a href="https://github.com/Pranavakash" target="_blank">🌐 Portfolio</a>
+      </div>
+    </header>
+
+    <section>
+      <h2 class="section-title">Summary</h2>
+      <div class="card">
+        <p>Full Stack Developer with expertise in React and Java for designing and developing scalable applications. Skilled in building responsive frontends and robust backends to deliver seamless user experiences. Experienced in collaborating with diverse teams and applying solution-oriented approaches. Focused on creating efficient, user-centric solutions that align with business objectives.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Projects</h2>
+      <div class="card">
+        <div class="item">
+          <p class="item-title">E-Commerce Platform</p>
+          <p class="item-meta">Jul-2025</p>
+        </div>
+        <ul>
+          <li><strong>Developed</strong> a responsive web application using React, HTML, CSS and JavaScript ensuring seamless user experience across devices.</li>
+          <li><strong>Deployed</strong> the application on Netlify with optimized performance and fast loading times for end-users.</li>
+          <li>Live link: <a href="https://github.com/Pranavakash" target="_blank">https://github.com/Pranavakash</a></li>
+        </ul>
+        <div class="chips">
+          <span class="chip">React</span><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Netlify</span>
+        </div>
+
+        <hr style="border:none;border-top:1px solid var(--line);margin:16px 0;" />
+
+        <div class="item">
+          <p class="item-title">Employee Management System</p>
+          <p class="item-meta">Aug-2025</p>
+        </div>
+        <ul>
+          <li><strong>Developed</strong> a full-stack Employee Management System using Spring Boot (backend) and React.js (frontend).</li>
+          <li><strong>Implemented</strong> secure CRUD operations and authentication for admin record management.</li>
+          <li><strong>Built</strong> a responsive interface ensuring smooth navigation for end-users.</li>
+          <li>Live link: <a href="https://github.com/Pranavakash" target="_blank">https://github.com/Pranavakash</a></li>
+        </ul>
+        <div class="chips">
+          <span class="chip">Spring Boot</span><span class="chip">React.js</span><span class="chip">MySQL</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Experience</h2>
+      <div class="card">
+        <div class="item">
+          <p class="item-title">Full Stack Development Internship at INFRONEX IT Products and Services</p>
+          <p class="item-meta">June 2025 - Oct 2025</p>
+        </div>
+        <ul>
+          <li><strong>Designed</strong> and developed web applications using React and Java, integrating RESTful APIs and handling databases to ensure high performance.</li>
+          <li><strong>Collaborated</strong> with cross-functional teams to deliver scalable, user-centric solutions within deadlines.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Skills</h2>
+      <div class="card">
+        <p><strong>Frontend:</strong> HTML, CSS, Bootstrap, JavaScript, React</p>
+        <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Bootstrap</span><span class="chip">JavaScript</span><span class="chip">React</span></div>
+        <p style="margin-top:12px;"><strong>Backend:</strong> Java/Spring Boot</p>
+        <div class="chips"><span class="chip">Java</span><span class="chip">Spring Boot</span></div>
+        <p style="margin-top:12px;"><strong>Database:</strong> MySQL</p>
+        <div class="chips"><span class="chip">MySQL</span></div>
+        <p style="margin-top:12px;"><strong>Tools:</strong> Git, GitHub</p>
+        <div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Education</h2>
+      <div class="card">
+        <div class="item">
+          <p class="item-title">B.E — Electronics and Communication Engineering</p>
+          <p class="item-meta">Oct 2021 - May 2025</p>
+        </div>
+        <p class="item-subtitle">Nandha Engineering College</p>
+        <ul>
+          <li><strong>Developed</strong> a project on Cover Lossless Robust Image Watermarking System using Java to enable accurate retrieval of image data even after geometric deformations.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Additional Information</h2>
+      <div class="card">
+        <p><strong>Languages:</strong> English, Tamil</p>
+        <p><strong>Certifications:</strong> Completed Software Engineering Primer course and earned certification from IBM.</p>
+        <p><strong>Awards/Activities:</strong> Paper Presentation on Embedded Systems and Sensors, Presented Software Project at an International Conference.</p>
+      </div>
+    </section>
+
+    <footer>
+      <span>© PRANAVAKASH D — Full Stack Developer</span>
+      <span style="margin-left:12px;">
+        <a href="javascript:window.print()">Print / Save as PDF</a>
+      </span>
+    </footer>
+  </main>
+</body>
+</html>
+
